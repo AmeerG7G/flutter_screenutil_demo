@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // Required to lock orientation
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-// Import screens
 import 'HomeScreen.dart';
 import 'ProfileScreen.dart';
 import 'GalleryScreen.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // 🔒 Lock the app orientation to portrait mode only
+  // Lock the app orientation to portrait mode only
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
