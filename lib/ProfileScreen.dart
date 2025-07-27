@@ -22,7 +22,6 @@ class ProfileScreen extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50.r, // Responsive avatar radius
-                backgroundImage: AssetImage('assets/avatar.png'),
               ),
               SizedBox(height: 20.h), // Responsive vertical spacing
               TextField(

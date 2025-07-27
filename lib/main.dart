@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Responsive Flutter Demo',
-          theme: ThemeData(primarySwatch: Colors.blue),
+          theme: ThemeData(primarySwatch: Colors.deepPurple),
 
           // Define named routes for navigation between screens
           initialRoute: '/',

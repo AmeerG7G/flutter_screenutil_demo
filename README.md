@@ -1,31 +1,35 @@
-# Flutter Responsive Demo App using flutter_screenutil 📱
+Flutter Responsive UI Demo using flutter_screenutil
 
-This is a simple demo Flutter app that shows how to build responsive UIs using the [flutter_screenutil](https://pub.dev/packages/flutter_screenutil) package. The goal is to make the layout look good on all screen sizes and orientations.
+Overview
 
----
+This project is a simple Flutter demo showcasing how to build responsive user interfaces using the flutter_screenutil package. The application includes three basic screens: Home, Profile, and Gallery. All UI elements are designed to adapt to different screen sizes for a consistent experience across devices.
 
-Packages Used
+Screens Included
 
-- flutter_screenutil: Helps adapt screen sizes, font sizes, padding, margins, and more across different devices.
+Home Screen
+The home screen contains two buttons that navigate to the Profile screen and the Gallery screen. The buttons are full-width and use responsive text and spacing.
 
----
+Profile Screen
+The profile screen displays a circular avatar image, along with input fields for name and email, and a Save button. The layout is scrollable to ensure that all elements remain accessible on smaller devices. Input fields are styled with rounded borders and adaptive font sizes.
 
-Screens in the App
+Gallery Screen
+This screen displays a grid of items arranged in two columns. The grid layout adjusts spacing based on screen size, and each item maintains a square shape for visual consistency.  The text within each grid item is also responsive.
 
-1. Home Screen
-   - Two buttons to navigate to the Profile and Gallery screens
+Design Features
 
-2. Profile Screen
-   - A simple responsive form
-   - Circular avatar with adaptive sizing
+All sizes, spacing, and text styles are adjusted dynamically using the flutter_screenutil package.
 
-3. Gallery Screen
-   - Responsive grid layout with cards or image placeholders
+Uniform and consistent layout across different screen resolutions and aspect ratios.
 
----
+Scrollable layout in forms to handle keyboard overlay and small screens.
 
-How to Run
+SafeArea used to avoid system UI intrusions like notches or status bars.
 
-`bash
-flutter pub get
-flutter run# flutter_screenutil_demo
+
+Technologies Used
+
+Flutter SDK
+
+flutter_screenutil package
+
+Material Design Components
